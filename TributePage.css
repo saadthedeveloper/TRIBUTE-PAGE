@@ -18,19 +18,26 @@ main
     font-size: 40px;
     margin-bottom: 0%;
 }
-#img-div
+#img-container
 {
-    width: 100%; //it is overflowing because main doesnt have width
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    width: 90%;
+    margin: auto;
+      
 }
 #image
 {
-width:100%; //check if there is a need for this
+display: block;
+max-width:100%; 
+max-height: 100%;
+margin: 0 auto;
+width: 97%;
+margin: 0 auto;
+margin-bottom: 20px;
 }
 #img-caption
 {
